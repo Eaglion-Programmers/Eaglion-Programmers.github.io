@@ -7,10 +7,9 @@ Eaglion Programmers is student-developer's organization aiming to help new devel
 Anyone with a knowledge of Web development or documentation are welcome to contribute! ❣️
 
 # How to Contribute to?
-  # 1>. Code based Contribution:
+  ## 1>. Code based Contribution:
       updating soon.....
-  # 2>. Document based Contribution:
+  ## 2>. Document based Contribution:
        updating soon.....
        
        
-# NOTE:  this README is under construction !!

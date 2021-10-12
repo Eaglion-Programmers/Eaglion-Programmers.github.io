@@ -9,7 +9,7 @@ Don't worry we got your back ❣️
 
 Below are the steps to follow to contribute to this project:
 
-**1.**  Fork [this](https://github.com/Eaglion-Programmers/Eaglion-Programmers.github.io) repository.
+**1.**  Fork [this](https://github.com/Eaglion-Programmers/Eaglion-Programmers.netlify.app) repository.
 
 **2.**  Clone your forked copy of the project.
 ```

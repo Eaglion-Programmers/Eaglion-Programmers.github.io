@@ -1,6 +1,6 @@
 # Eaglion-Programmers.github.io
 
-This repo is dedicated to Eaglion-Programmers Official Site! https://eaglion-programmers.github.io/
+This repo is dedicated to Eaglion-Programmers Official Site! https://eaglion-programmers.netlify.app
 Eaglion Programmers is student-developer's organization aiming to help new developers into Open source and provides many more resource for Development / CP  etc.
 
 # Contributing
@@ -9,7 +9,7 @@ Don't worry we got your back ❣️
 
 Below are the steps to follow to contribute to this project:
 
-**1.**  Fork [this](https://github.com/Eaglion-Programmers/Eaglion-Programmers.netlify.app) repository.
+**1.**  Fork [this](https://github.com/Eaglion-Programmers/Eaglion-Programmers.github.io) repository.
 
 **2.**  Clone your forked copy of the project.
 ```

@@ -1,2 +1,0 @@
-Here , You can structure all your components !
-Also , dont forget to delete this text file, once you add atleast one component

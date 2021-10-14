@@ -1,22 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+
 :root {
     --primary: rgb(187, 93, 26);
     --secondry: rgb(247, 215, 192);
   }
   body{
+      margin: 0 auto;
+      padding: 0;
+      box-sizing: border-box;
       background-color: var(--secondry);
+      overflow-x: hidden;
   }
+nav{
+    height: 80px;
+    background-color: var(--secondry);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    padding: 0px 50px 0px 20px;
+}
+.logo strong{
+    color: var(--primary);
+    font-size: 2rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 5px 0px 5px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 1px 8px;
+    border-radius: 50px;
+}
 
-  nav-container{
-      width: 100%;
-      display: flex;
-  }
-  .links-div{
-      display: flex;
-  }
 
-  ul li{
-      list-style: none;
-  }
-  strong{
-      color: var(--primary);
-  }
+nav ul li a:hover,nav ul li a.active{
+    background-color: var(--primary);
+    color: var(--secondry);
+}
+nav .menu-btn i{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+#click{
+    display: none;
+}
+/* Responsiveness */
+@media (max-width:940px) {
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left:0px;
+        background-color: var(--primary);
+        height: 100%;
+        width: 100%;
+        display: block;
+        text-align: center;
+        left: -100%;
+        transition: all 0.8s ease;
+    }
+    #click:checked ~ .menu-btn i::before{
+        content: "\f00d";
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+
+    nav ul li{
+        margin-top: 40px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        display: block;
+        font-weight: bold;
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+
+    
+}

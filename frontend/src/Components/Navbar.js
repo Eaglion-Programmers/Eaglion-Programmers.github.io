@@ -3,23 +3,35 @@ import '../styles/navbar.css';
 
 const Navbar = () => {
     return ( 
-        <header>
-            <div className="nav-container">
-                <nav>
-                    <ul>
-                        <div id="logo-div">
-                            <strong>EAGLION</strong>
-                        </div>
-                        <div className="links-div">
-                            <li>Home</li>
-                            <li>About us</li>
-                            <li>Members</li>
-                            <li>Contact</li>
-                        </div>
-                    </ul>
-                </nav>
+        <>
+        <nav>
+            <div className="logo">
+                <strong>EAGLION</strong>
             </div>
-        </header>
+            <input type="checkbox" id="click"/>
+            <label for="click" className="menu-btn">
+                    <i className="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li ><a className="active" href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+
+        </section>
+        <section id="members">
+
+        </section>
+        <section id="contact">
+
+        </section>
+        
+
+    </>
      );
 }
  

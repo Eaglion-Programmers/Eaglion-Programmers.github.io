@@ -1,0 +1,22 @@
+:root {
+    --primary: rgb(187, 93, 26);
+    --secondry: rgb(247, 215, 192);
+  }
+  body{
+      background-color: var(--secondry);
+  }
+
+  nav-container{
+      width: 100%;
+      display: flex;
+  }
+  .links-div{
+      display: flex;
+  }
+
+  ul li{
+      list-style: none;
+  }
+  strong{
+      color: var(--primary);
+  }

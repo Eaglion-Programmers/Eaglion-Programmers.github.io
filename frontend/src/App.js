@@ -1,9 +1,11 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-        "Welcome to eaglion programmers"
+      {/* Note : Once More Content will be added to website, It will eventually stick Down */}
+        <Footer/>
     </div>
   );
 }

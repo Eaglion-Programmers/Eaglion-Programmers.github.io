@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       {/* Disabled for now making its overlapping body enable it at the end */}
-      {/* <Footer/> */} 
+      <Footer/> 
     </div>
   );
 }

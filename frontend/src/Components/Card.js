@@ -22,9 +22,9 @@ const Card = ({data}) => {
                     <div className="mem-socials">
                     <a href={data.socials.portfolio}><i class="fas fa-id-card"></i></a>
                     <a href={data.socials.email}><i class="fas fa-envelope"></i></a>
-                    <a href={data.socials.linkedIn}><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    <a href={data.socials.github}><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href={data.socials.twitter}><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href={data.socials.linkedIn}><i class="fa fa-linkedin" ></i></a>
+                    <a href={data.socials.github}><i class="fa fa-github" ></i></a>
+                    <a href={data.socials.twitter}><i class="fa fa-twitter" ></i></a>
                     </div>
             </BackSide>
             </Flippy>

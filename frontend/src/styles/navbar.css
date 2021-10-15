@@ -78,8 +78,9 @@ nav .menu-btn i{
     }
     #click:checked ~ ul{
         left: 0%;
+        
     }
-
+   
     nav ul li{
         margin-top: 40px;
     }

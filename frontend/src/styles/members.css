@@ -1,0 +1,20 @@
+.card-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+/*Tablets*/
+@media (max-width:940px) {
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+/* Mobile */
+@media (max-width:460px) {
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -27,10 +27,9 @@ const Footer = () => {
   
             <div className="links">
               <ul>
-                <li><a href="https://eaglion-programmers.netlify.app/">Home</a></li>
-                <li><a href="https://eaglion-programmers.netlify.app/">About Us</a></li>
-                <li><a href="https://eaglion-programmers.netlify.app/">Contact</a></li>
-                <li><a href="https://eaglion-programmers.netlify.app/">Members</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/#about">About Us</a></li>
+                <li><a href="/#members">Members</a></li>
               </ul>
             </div>
           </div>

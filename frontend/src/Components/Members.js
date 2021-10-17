@@ -73,6 +73,8 @@ const Members = () => {
             <Card data={membersData[1]}/>
             <Card data={membersData[2]}/>
             <Card data={membersData[3]}/>
+            <Card data={membersData[3]}/>
+            <Card data={membersData[3]}/>
         </div>
      );
 }

@@ -1,10 +1,31 @@
+*{
+
+    margin: 0 auto;
+    padding: 0;
+}
+
 .card-container{
     position: relative;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
 }
 /*Tablets*/
 @media (max-width:940px) {
+    .card-container{
+      
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+@media (max-width:885px) {
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+@media (max-width:685px) {
     .card-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

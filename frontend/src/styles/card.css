@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
 
-
+:root{
+    --card-front:rgb(212, 173, 145);
+    --card-back:#000000;
+}
 .single-card{
     margin-left: 2rem;
     cursor: pointer;
@@ -25,8 +28,8 @@
 }
 .front{
     /* background-color: rgb(247, 215, 192); */
-    background-color: rgb(212, 173, 145);
-    box-shadow: 0px 5px 12px 4px black;
+    background-color: var(--card-front);
+    box-shadow: 0px 5px 12px 4px var(--card-back);
 }
 .front h4,h6{
     font-family: 'Darker Grotesque', sans-serif;
@@ -35,7 +38,7 @@
     font-weight: bold;
 }
 .back{
-    background-color:  black;
+    background-color:  var(--card-back);
 }
 .mem-pic{
     height: 85%;

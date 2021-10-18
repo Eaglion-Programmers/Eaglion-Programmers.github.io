@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/*Whole About Component*/
+.aboutComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+  width: 95%;
+  /* border: 1px solid black; */
+  border-radius: 2%;
+  margin: 4vh auto;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(#161f3b, #3d9fcc);
+}
+
+/*Designing For Quote-"Catchy-Line"*/
+#Catchy-Line{
+height:45vh;
+}
+.Catchy-Line-Partial {
+  color: #b4c0d6;
+}
+.Catchy-Line-Main {
+  font-size: 2em;
+}
+
+/*RepositoryScreenShot Here*/
+#screenShot-Image {
+  background-color: #7a7777;
+  width: 100%;
+  border-radius: 3%;
+}
+
+#screenShot-Image:hover {
+  z-index: 20;
+  animation: shadow 2s 1;
+  animation-fill-mode: forwards;
+}
+.RepositorySS:hover {
+  cursor: pointer;
+  animation: scale 1s 1;
+  animation-fill-mode: forwards;
+}
+
+/*Join Us Section*/
+.fa-arrow-right{
+  margin-left: 6px;
+}
+
+.Join-Us a{
+  text-decoration: none;
+}
+/* 
+#Community-Managers{
+  border: 2px solid white;
+  margin: auto;
+} */
+
+/*utility Classes Here*/
+.AboutUs-Items {
+  width: 40%;
+  /* border: 2px solid rgb(47, 200, 142); */
+  color: #ffffff;
+  margin: 10px 0px;
+  height: 70vh;
+}
+.button {
+  font-size: medium;
+  display: flex;
+  align-self: center;
+  margin:  auto;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10%;
+  height: 40px;
+  background-color: #ffffff;
+  color: #020e1b;
+}
+.flex{
+  display: flex; 
+}
+.top-margin{
+  margin-top: 10px;
+}
+
+.button:hover{
+  background-color: rgb(232, 233, 236);
+  color: rgb(0, 0, 0);
+}
+
+/*Animations Here*/
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.4);
+  }
+}
+
+@keyframes shadow {
+  from {
+    border-radius: 3%;
+    box-shadow: 0px 0px 0px;
+  }
+  to {
+    border-radius: 0%;
+    box-shadow: 6px 12px 12px black;
+  }
+}
+
+/*Responsiveness Here*/
+@media (max-width: 1167px) {
+.aboutComponent{
+  height: 110vh;
+}
+  .AboutUs-Items {
+    width: 50%;
+    height: 47vh;
+  }
+}
+
+@media (max-width: 657px) {
+  .AboutUs-Items {
+    width: 90%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 763px) {
+  @keyframes scale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+}

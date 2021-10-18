@@ -1,0 +1,25 @@
+
+.CommunityManagersCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background-color: #ffff;
+  border-radius: 2%;
+  width: 25%;
+  height: 50vh;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.managers-img {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+
+.managers-img img {
+  width: 40%;
+  border-radius: 50%;
+}

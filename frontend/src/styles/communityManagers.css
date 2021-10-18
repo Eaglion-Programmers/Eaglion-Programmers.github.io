@@ -1,0 +1,6 @@
+.CommunityManagers{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    border: 1px solid black;
+}

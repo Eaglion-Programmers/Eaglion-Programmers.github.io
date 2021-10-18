@@ -19,6 +19,7 @@ const Navbar = () => {
                 <li><a href="#about">About</a></li>
                 <li><a href="#members">Members</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="https://auto-joiner-eaglion.herokuapp.com/">Join Community</a></li>
             </ul>
         </nav>
         

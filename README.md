@@ -1,6 +1,6 @@
 # Eaglion-Programmers.github.io
 
-This repo is dedicated to Eaglion-Programmers Official Site! https://eaglion-programmers.netlify.app
+This repo is dedicated to Eaglion-Programmers Official Site! http://eaglionprogrammers.rocks
 Eaglion Programmers is student-developer's organization aiming to help new developers into Open source and provides many more resource for Development / CP  etc.
 
 # Contributing

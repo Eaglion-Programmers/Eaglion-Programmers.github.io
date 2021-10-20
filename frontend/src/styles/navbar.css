@@ -62,6 +62,7 @@ nav .menu-btn i{
 /* Responsiveness */
 @media (max-width:940px) {
     nav ul{
+        z-index: 10;  /* for overlaying the menu section*/
         position: fixed;
         top: 80px;
         left:0px;

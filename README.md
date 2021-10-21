@@ -92,3 +92,5 @@ git push -u origin <your_branch_name>
 ## Step 3:
             npm start
 **16.** Hurray ! You have created a PR to the Hacktoberfest . Sit back patiently and relax till then the project maintainers will review your PR. Please understand,  there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+
+<h2 align="center"> Happy contributions </h2> 

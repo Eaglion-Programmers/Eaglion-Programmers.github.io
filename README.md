@@ -83,7 +83,8 @@ git push -u origin <your_branch_name>
 
 <img src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" width=600>
 
-# Testing
+<h2 align="center"> Testing </h2>
+
 ## Step 1:
             cd frontend
 ## Step 2:

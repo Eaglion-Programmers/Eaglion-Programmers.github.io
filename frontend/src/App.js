@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import AboutUs from "./Components/AboutUs";
-import Members from "./Components/Members";
+import Card from "./Components/Card";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -22,7 +22,7 @@ function App() {
                           </Route>
 
                           <Route exact path="/members">                 
-                            <Members />                     
+                            <Card />                     
                           </Route>
 
                           <Route exact path="/contact">                

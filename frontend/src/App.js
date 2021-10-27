@@ -5,6 +5,7 @@ import AboutUs from "./Components/AboutUs";
 import Card from "./Components/Card";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Home from "./Components/Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
         <Switch>
                          <Route exact path="/">
-                             To be updated                 
+                            <Home />                
                           </Route>
 
                           <Route exact path="/about">                

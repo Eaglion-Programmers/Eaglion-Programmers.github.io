@@ -3,36 +3,18 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import AboutUs from "./Components/AboutUs";
 import Card from "./Components/Card";
-import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <div className="App" style={{display:"flex",flexDirection:"column"}}>
       <Navbar />
-        <Switch>
-                         <Route exact path="/">
-                            <Home />                
-                          </Route>
-
-                          <Route exact path="/about">                
-                            <AboutUs />                         
-                          </Route>
-
-                          <Route exact path="/members">                 
-                            <Card />                     
-                          </Route>
-
-                          <Route exact path="/contact">                
-                            <Contact />                  
-                          </Route>
-        </Switch>
-        <Footer />
-      </Router>
-
+      <AboutUs />
+      <Home />
+      <Card />
+      <Footer />
     </div>
   );
 }

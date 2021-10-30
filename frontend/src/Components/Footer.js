@@ -2,7 +2,7 @@
 import React from 'react'
 import '../styles/footer.css';
 
-/*Note :  This footer is under development phase ! It Can change in future , according to suggestions*/
+
 const Footer = () => {
   return (  
 
